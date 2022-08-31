@@ -1,0 +1,458 @@
+* {
+    margin: 0px;
+}
+
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+.bg-grey2 {
+    background: #f7f7f7;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.muctieu1 {
+    margin-left: 270px;
+    margin-right: 50px;
+    line-height: 1.3;
+}
+
+.muctieu2 {
+    background: rgba(128, 128, 128, 0.1);
+    line-height: 1.3;
+}
+
+section > .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
+}
+
+#nav-bar {
+    text-align: center;
+    height: 75px;
+    font-size: 17px;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-bottom-style: groove;
+    border-width: 1px;
+}
+.center {
+    position: absolute;
+    top: 15%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: #f7f7f7;
+    font-size: 25px;
+}
+.anh {
+    position: relative;
+    height: 555px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+span.a {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+.full {
+    padding: 125px;
+}
+.gach {
+    text-align: none;
+    text-decoration: none;
+    padding: 38px 70px;
+    color: #000;
+}
+.gach2 {
+    text-align: none;
+    text-decoration: none;
+    color: #000;
+    padding: 35px 120px;
+    padding-left: 40px;
+}
+
+
+
+#oa {
+    border-left-style: groove;
+    border-width: 1px;
+    text-align: center;
+    padding: 35px 30px;
+}
+.thongtin {
+    padding-top: 50px;
+}
+.mau {
+    color: grey;
+}
+.mau2 {
+    color: grey;
+    margin-left: 20px;
+}
+.mau3 {
+    color: grey;
+}
+.mau4 {
+    color: grey;
+    margin-left: 20px;
+}
+
+.iconthongtin {
+    margin-left: 36px;
+}
+.kinhnghiem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    line-height: 1.3;
+}
+.border {
+    border-style: groove;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.border2 {
+    border-style: groove;
+    margin-top: 20px;
+    padding-left: 20px;
+    height: 480px;
+}
+.border3 {
+    border-style: groove;
+    margin-top: 20px;
+    padding-left: 20px;
+    height: 580px;
+}
+.border4 {
+    border-style: groove;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.border5 {
+    border-style: groove;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-top: -75px;
+    height: 320px;
+}
+.border6 {
+    border-style: groove;
+    padding-left: 20px;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.iconleft {
+    margin-left: 75px;
+    line-height: 2;
+    font-size: 50px;
+    color: #000;
+}
+.iconleft2 {
+    margin-left: 155px;
+    line-height: 3;
+    font-size: 50px;
+    color: #000; 
+}
+
+.iconleft3 {
+    margin-left: 135px;
+    line-height: 3;
+    font-size: 50px;
+    color: #000; 
+}
+
+.daudong {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.nghieng {
+    font-style: italic;
+}
+.blue {
+    color: #199cdb;
+}
+
+.icontron {
+    border: 1px solid #199cdb;
+    border-radius: 50%;
+    display: inline;
+    padding: 10px;
+}
+.icontrongiua {
+    border: 1px solid #199cdb;
+    border-radius: 50%;
+    display: inline;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sothich {
+    line-height: 2;
+    font-size: 35px;
+    color: #199cdb;
+    height: 150px;
+}
+.amnhac {
+    position: relative;
+    bottom: 70px;
+    margin-left: 5px;
+}
+
+span.b {
+    padding: 13px;
+}
+.ngonngu {
+background: #199cdb;
+display: inline-block;
+height: 2px;
+margin-right: 10px;
+width: 50px;
+}
+.ngonngugrey {
+    background: grey;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 50px;
+}
+.diem {
+    margin-top: 12px;
+}
+.chungchi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    column-gap: 10px;
+}
+.chungchi1 {
+    width: 90%;
+    padding: 0px 0;
+}
+.chungchi2 {
+    width: 90%;
+    padding: 0px 0;
+    border-left: groove;
+    border-color: yellow;
+    border-width: 1px;
+    padding-left: 20px;
+}
+.chungchi3 {
+    margin-top: 100px;
+    width: 90%;
+    padding: 0px 0;
+}
+
+.giaithuong {
+    font-size: 14px;
+    align-self: center;
+    width: 100%;
+} 
+.giaithuong2 {
+    font-size: 14px;
+    align-self: center;
+    width: 100%;
+    margin-top: 100px;
+    grid-column: 2 / -1;
+} 
+.giaithuong3 {
+    font-size: 14px;
+    align-self: center;
+    width: 100%;
+} 
+.web1 {
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+.web2 {
+    margin-top: -50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.borderchungchi {
+    border-top: groove;
+    position: relative;
+    bottom: 180px;
+    border-color: yellow;
+    border-width: 1px;
+}
+.cach li::before {
+    content: "\2022";
+    color: #199cdb;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+ul {
+    list-style: none;
+}
+
+.duan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    line-height: 1.3;
+    margin-top: 50px;
+}
+
+.borderduan {
+    border: 1px solid grey;
+    margin-top: 0px;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 40px;
+    font-size: 10px;
+}
+.borderduan2 {
+    border: 1px solid grey;
+    margin-top: 0px;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 40px;
+    font-size: 10px;
+}
+.borderduan3 {
+    border: 1px solid grey;
+    margin-top: 0px;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 40px;
+    font-size: 10px;
+}
+.CV {
+    border: 1px solid grey;
+    margin-top: 0px;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 40px;
+    border-collapse: collapse;
+    color: grey;
+}
+.CV2 {
+    border: 1px solid grey;
+    margin-top: 0px;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 40px;
+    border-collapse: collapse;
+    color: grey;
+}
+.CV3 {
+    border: 1px solid grey;
+    margin-top: 0px;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 40px;
+    border-collapse: collapse;
+    color: grey;
+}
+.nam {
+    padding: 18px;
+}
+.baonam {
+    border: 1px solid #199cdb;
+    border-radius: 3em / 4em;
+    padding: 10px;
+    color: white;
+    background-color: #199cdb;
+}
+
+.caiban {
+    border: 1px solid grey;
+    line-height: 1.8;
+    border-collapse: collapse;
+    padding: 30px 24px;
+    text-align: left;
+}
+.caiban2 {
+    border: 1px solid grey;
+    line-height: 1.8;
+    border-collapse: collapse;
+    padding: 30px 24px;
+    text-align: left;
+}
+.caiban3 {
+    border: 1px solid grey;
+    line-height: 1.8;
+    border-collapse: collapse;
+    padding: 30px 24px;
+    text-align: left;
+}
+
+span.daudong {
+    padding: 5px;
+}
+
+span.c {
+    padding: 31px;
+}
+span.d {
+    padding: 57px;
+}
+td {
+    border: 1px solid grey;
+}
+span.e {
+    padding: 18px;   
+}
+span.f {
+    padding: 15px;
+}
+span.g {
+    padding: 80px;
+}
+
+.sieuxe {
+    font-size: 20px;    
+    display: inline-block;
+    padding-left: 185px;
+}
+
+.link {
+    text-decoration: none;
+    color: #199cdb;
+}
+
+span.fb {
+    color: black;
+}
+
+.hinh {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.altria {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    background: cover;
+    background-size: cover;
+    position: absolute;
+    top: 500px;
+}
+
+footer {
+    height: 5px;
+}

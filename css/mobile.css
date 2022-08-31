@@ -1,0 +1,263 @@
+@media screen and (max-width: 600px) {
+    .hinh {
+        display: none;
+    }
+    .anh {
+        position: relative;
+        height: 300px;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .center {
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        transform: translate(-20%, -50%);
+        color: #f7f7f7;
+        font-size: 15px;
+    }
+    .full {
+        padding: 80px;
+    }
+    body {
+        width: 650px;
+        margin: auto;
+        display: block;
+    }
+    section > .container{
+        width: 550px;
+        margin: auto;
+        display: block;
+    
+        padding: 30px 50px;
+    }
+    
+    #nav-bar {
+        display: block;
+        text-align: left;
+        height: 150px;
+        font-size: 17px;
+        text-transform: uppercase;
+        overflow: hidden;
+        border-width: 0px;
+        margin-right: 0px;
+    }
+    #oa {
+        border-left-style: none;
+        border-width: 0px;
+        text-align: left;
+        padding: 0px 0px;
+    }
+    .gach {
+        display: block;
+        line-height: 1.5;
+    }
+    .gach2 {
+        display: block;
+        line-height: 1.5;
+    }
+    .bg-grey2 {
+        background: #f7f7f7;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .muctieu1 {
+        margin-left: -60px;
+        margin-right: 315px;
+        line-height: 1.3;
+        height: 350px;
+    }
+    .kinhnghiem {
+        display: grid;
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 50px;
+        line-height: 2.3;
+    }
+    .border4 {
+        border-style: groove;
+        margin-top: 20px;
+        padding-left: 20px;
+        height: 300px;
+    }
+    .border5 {
+        border-style: groove;
+        margin-top: 20px;
+        padding-left: 20px;
+        height: 360px;
+    }
+    .border6 {
+        border-style: groove;
+        padding-left: 20px;
+        margin-top: 20px;
+        height: 500px;
+    }
+    .chungchi {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+        column-gap: 10px;
+        width: 100%;
+    }
+    .borderchungchi {
+        border-top: groove;
+        position: relative;
+        bottom: 910px;
+        border-color: red;
+        border-width: 1px;
+    }
+    .borderchungchi2 {
+        border-top: groove;
+        position: relative;
+        bottom: 438px;
+        border-color: red;
+        border-width: 1px;
+    }
+    .chungchi2 {
+        width: 200%;
+        padding: 0 0;
+        margin-top: 200px;
+        border-left: none;
+    }
+    .giaithuong3 {
+        width: 150%;
+        font-size: 25px;
+        position: relative;
+        top: 350px;
+        left: -300px;
+    }
+    .chungchi3 {
+        margin-top: 200px;
+        width: 200%;
+        padding: 0px 0;
+    }
+    .giaithuong2 {
+        font-size: 25px;
+        position: relative;
+        top: 300px;
+        left: -280px;
+        line-height: 1;
+        z-index: 4;
+    }
+    .duan {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 33%;
+        column-gap: 20px;
+        line-height: 1.3;
+        margin-top: 50px;
+    }
+    .borderduan {
+        border: 1px solid grey;
+        margin-top: 0px;
+        border-width: 1px;
+        padding-left: 20px;
+        padding-top: 20px;
+        height: 40px;
+        font-size: 10px;
+        position: relative;
+        top: -520px;
+    }
+    .CV {
+        border: 1px solid grey;
+        margin-top: 0px;
+        border-width: 1px;
+        padding-left: 20px;
+        padding-top: 20px;
+        height: 40px;
+        border-collapse: collapse;
+        color: grey;
+        position: relative;
+        top: -645px;
+    }
+    .caiban {
+        border: 1px solid grey;
+        line-height: 1.8;
+        border-collapse: collapse;
+        padding: 30px 24px;
+        text-align: left;
+        position: relative;
+        top: -770px;
+    }
+    .anhproject2 {
+        position: relative;
+        top: 360px;
+    }
+    .anhproject3 {
+        position: relative;
+        top: 742px;
+    }
+    .borderduan2 {
+        border: 1px solid grey;
+        margin-top: 0px;
+        border-width: 1px;
+        padding-left: 20px;
+        padding-top: 20px;
+        height: 40px;
+        font-size: 10px;
+        position: relative;
+        top: 38px;
+    }
+    .CV2 {
+        border: 1px solid grey;
+        margin-top: 0px;
+        border-width: 1px;
+        padding-left: 20px;
+        padding-top: 20px;
+        height: 40px;
+        border-collapse: collapse;
+        color: grey;
+        position: relative;
+        top: -85px;
+    }
+    .caiban2 {
+        border: 1px solid grey;
+        line-height: 1.8;
+        border-collapse: collapse;
+        padding: 30px 24px;
+        text-align: left;
+        position: relative;
+        top: -360px;
+    }
+    .borderduan3 {
+        border: 1px solid grey;
+        margin-top: 0px;
+        border-width: 1px;
+        padding-left: 20px;
+        padding-top: 20px;
+        height: 40px;
+        font-size: 10px;
+        position: relative;
+        top: 620px;
+    }
+    .CV3 {
+        border: 1px solid grey;
+        margin-top: 0px;
+        border-width: 1px;
+        padding-left: 20px;
+        padding-top: 20px;
+        height: 40px;
+        border-collapse: collapse;
+        color: grey;
+        position: relative;
+        top: 495px;
+    }
+    .caiban3 {
+        border: 1px solid grey;
+        line-height: 1.8;
+        border-collapse: collapse;
+        padding: 30px 24px;
+        text-align: left;
+        position: relative;
+        top: 60px;
+    }
+    #footer {
+        margin-top: 50px;
+    }
+    .sieuxe {
+        font-size: 20px;    
+        display: block;
+        padding-left: 0px;
+    }
+  }
